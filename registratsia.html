@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration </title>
+    <style>
+        body{
+justify-content:flex-start;
+      width: 100%;
+      height: 900px;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      background-color: #002349;
+    
+    }
+
+    .container{
+        display: flex;
+        /* justify-content:center; */
+        flex-direction: column;
+        align-items: center;
+        color: #957C3D;
+        width: 800px;
+        height: 800px;
+        background-color: #1c4064;
+    }
+    input[type=text], input[type=password] {
+  width: 500px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #eeeded;
+  font-style: italic;
+}
+
+        
+    </style>
+</head>
+<body>
+    <div style="position:absolute; left: 60px;"> <img src="./logo.jpg" width="130px" > </div>
+    <div>
+        <h1 style="color: #957C3D;">დარეგისტრირდი &#9745 </h1>
+        <h4 style="color: #957C3D;position:relative;"> გვითხარით რით შევძლებთ თქვენს დახმარებას </h4>
+        
+    </div>
+
+    <form action="/action_page.php">
+        <div class="container">
+            <div>
+            <h3> დაარქვი შენს მოთხოვნას მოკლე სახელი </h3>
+            <input type="text" placeholder="მაგალითად: შრომითი სამართალი, განაცდურის ანაზღაურება" required>
+        </div>
+        <div >
+            <h3 > მოგვიყევი მეტი შენი პრობლემის შესახებ </h3>
+            <input type="text" placeholder="დაწერეთ ტექსტი აქ "required style="height: 100px;">
+        </div>
+
+        <div style="padding-right: 290px;">
+            <h4 > მიუთითეთ ტელეფონის ნომერი </h4>
+            <input type="tel" style="width: 200px;" >
+        </div>
+
+        <div style="padding-right: 320px;">
+            <h4> მიუთითეთ იმეილი </h4>
+            <input type="email"  style="width: 200px;">
+        </div>
+
+        <div style="padding-right: 52px;">
+            <h4> მიუთითეთ რა თანხის ფარგლებში გნებავთ მომსახურების მიღება  </h4>
+            <input type="number"  style="width: 200px;">
+        </div>
+        
+        <div>
+            <h5> ატვირთეთ დოკუმენტაცია, რომელიც დაგვხემარება უკეთ გავიგოთ თქვენი მოთხოვნის შინაარსი  </h5>
+            <label for="Photo"> </label> <input type="file" required/> 
+        </div>
+
+        
+        <input type="button" value="რეგისტრაცია" onclick="alert('მადლობა, თქვენი განაცხადი მიღებულია')"
+        style="display: flex; padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px; padding-right: 10px;
+        font-weight: bold;
+        background-color:#957C3D; margin-top: 20px; "
+        >
+
+        </div>
+      </form>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Att</title>
+
+    <style> 
+    
+    .advokatebisgverdi{
+        
+        justify-content: space-around;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #002349;
+      color: #957C3D;}
+
+      .heading{
+        display: flex;
+        justify-content: center;
+        color: #957C3D;
+    }
+    *{ margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+
+    }
+
+    img{
+        height: 250px;
+        border-radius: 3px;
+
+    }
+
+    .card {
+        
+        height: 250px;
+        margin: 50px;
+        box-shadow: 5px 5px 20px rgb(104, 94, 37);
+        overflow: hidden;
+    }
+
+    .card2{ 
+        height: 250px;
+        margin: 50px;
+        box-shadow: 5px 5px 20px rgb(104, 94, 37);
+        /* overflow: hidden; */
+        
+    }
+
+   
+
+    .intro{
+        
+        height: 80px;
+        width: 348px;
+        padding: 6px;
+        box-sizing: border-box ;
+        position: absolute;
+        bottom: 380px;
+        background: rgb(27, 27,27, .5);
+        color: white;
+        transition: 4s;
+
+    }
+
+    .intro2{ height: 90px;
+        width: 348px;
+        padding: 6px;
+       
+        /* padding-left: 100px; */
+        box-sizing: border-box  ;
+        bottom: 80px; 
+        position:relative; 
+        background: rgb(27, 27,27, .5);
+        color: white;
+        transition: 4s;}
+     
+    .container{
+        height: 398px;
+     display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        background-color: #002349;
+
+    }
+    .container2 {height: 410px;
+     display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        background-color: #002349;
+}
+
+   
+  
+    .card:hover{
+        cursor: pointer;
+        transition: 4s;
+
+    }
+    .card2:hover{ cursor: pointer;
+        transition: 4s;}
+    
+
+    p{
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .card:hover .intro {
+        height: 90px;
+        top: 350px;
+        background: #957C3D;
+        transition: 4s;
+
+    }
+    .card2:hover .intro2 {
+        height: 90px;
+        
+        top: 10px;
+        background: #957C3D;
+        transition: 4s;
+
+    }
+
+    .card:hover p{
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    .card2:hover p{
+        opacity:1;
+        visibility: visible;
+
+    }
+
+    /* .card:hover img{
+        transform: scale(1.1) rotate(-1deg);
+    } */
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="advokatebisgverdi">
+            <div class="heading">
+            <h1> ადვოკატთა ერთიანი სია </h1>
+        </div>
+</div>
+</header>
+
+
+    <div class="container">
+
+        <div class="card">
+            <img src="./avtandilavaliani.jpg" >
+            <div class="intro">
+                <h3> ავთანდილ ავალიანი </h3>
+                <p>სპეციალიზაცია: საერთო</p>
+                <p> email: avtandilavtandil@gmail.com </p>
+                 <p>tel: 577748596 </p>
+            </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="./ana.jpg" >
+                <div class="intro">
+                    <h3> ანა გვენცაძე </h3>
+                    <p> სპეციალიზაცია: საერთო</p>
+                    <p> email: anag25@gmail.com </p>
+                    <p>tel: 588748596 </p>
+                </div>
+                </div>
+
+                <div class="card">
+                    <img src="./adeishvilimadona.jpg" >
+                    <div class="intro">
+                        <h3> მადონა ადეიშვილი  </h3>
+                        <p> სპეციალიზაცია: საერთო</p>
+                        <p> email: madona25@gmail.com </p>
+                        <p>tel: 599748596 </p>
+                    </div>
+                    </div>  
+
+    </div>
+
+    <div style= "justify-content: center; display: flex; background-color: #022e5e;">
+        <img  src="./justpoto.png" alt="">
+    </div>
+    
+
+
+    <div class="container2">
+
+        <div class="card2">
+            <img src="./natalia.jpg" >
+            <div class="intro2">
+                <h3> ნატალია გელაძე </h3>
+                <p> სპეციალიზაცია: საერთო</p>
+                <p> email: ნატალია525@gmail.com </p>
+                <p>tel: 599969596 </p>
+            </div>
+            </div>
+
+            <div class="card2">
+                <img src="./giorgi.jpg" >
+                <div class="intro2">
+                    <h3> გიორგი კვაშილავა </h3>
+                    <p> სპეციალიზაცია: საერთო</p>
+                    <p> email: giorgi212@gmail.com </p>
+                    <p>tel: 577969596 </p>
+                </div>
+                </div>
+
+                <div class="card2">
+                    <img src="./aleksandre.jpg" >
+                    <div class="intro2">
+                        <h3> ალექსანდრე მურჯიკნელი </h3>
+                        <p> სპეციალიზაცია: საერთო</p>
+                        <p> email:alekremurjikneli@gmail.com </p>
+                        <p>tel: 5779256366 </p>
+                    </div>
+                     </div>
+
+
+    </div>
+
+  
+
+
+</body>
+</html>
